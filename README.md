@@ -1,6 +1,6 @@
-# WinFormsTemperatureMonitor
+﻿# WinFormsTemperatureMonitor
 
-基于 C#、.NET 8 和 WinForms 的 Modbus 温度监控学习项目，支持 Modbus RTU / TCP 通信、温度采集、实时曲线、参数写入及文件记录。通过软件模拟设备进行通信测试，无需真实硬件即可演示。
+基于 C#、.NET 8 和 WinForms 的 Modbus 温度监控学习项目，支持 Modbus RTU / TCP 通信、温度采集、实时曲线、参数写入及文件记录。通过软件模拟设备进行通信测试。
 
 ## 功能
 
@@ -45,13 +45,12 @@
 
 ## 开发运行
 
-1. 在 Windows 上安装支持 .NET 8 的 Visual Studio，并安装“.NET 桌面开发”工作负载。
-2. 下载或克隆本仓库，使用 Visual Studio 打开项目中的 `.csproj` 文件（原项目名为 `ModbusMonitor.csproj`）。
+1. 在 Windows 上安装支持 .NET 8 的 Visual Studio，并安装“.NET 桌面开发”。
+2. 下载或克隆本仓库，使用 Visual Studio 打开项目中的 `.csproj` 文件。
 3. 等待 NuGet 依赖还原完成。
 4. 启动兼容的 Modbus 模拟设备，并确认其通信参数和寄存器映射。
 5. 运行上位机，选择通信方式，检查参数设置，点击“开始监控”。
 
-仓库名称与 `.csproj` 文件名称可以不同，打开时以仓库内实际项目文件为准。
 
 ### Modbus TCP 测试
 
